@@ -14,5 +14,5 @@ public interface AppComponent {
 
     void inject(MainActivity mainActivity);
 
-    void inject(BlaBla blaBla);
+    void inject(EventBusExample eventBusExample);
 }

@@ -22,7 +22,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         TextView tvHelloDagger = (TextView) findViewById(R.id.tvHelloDagger);
         tvHelloDagger.setText(name);
-        BlaBla bla = new BlaBla();
+        EventBusExample bla = new EventBusExample();
         eventBus.post(new LoadEvent(1));
     }
 
